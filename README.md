@@ -63,6 +63,6 @@ If all went well, when its done you should be good to start coding with intellis
     ]
 }
 ```
-3) Hit *Ctrl+Shift+B* to run the default **Start game** build task or select *Tasks > Run Tasks...* and select the build command you'd like. Remember to hit *F5* if you select the **Debug with JVM** after its done with its initial cooking! Also note, you'll probably have to hit *Continue without scanning the task output* (or the *Never scan the task ouput*) option in the command bar to actually get the build to start. (*Never...*'s probably OK but I'm honestly not sure how to revert that if selected and thus never tried it!)
+3) Hit *Ctrl+Shift+B* to run the default **Start game** build task or select *Tasks > Run Tasks...* and select the build command you'd like. Remember to hit *F5* if you select the **Debug with JVM** after its done with its initial cooking! Also note, you'll probably have to hit *Continue without scanning the task output* (or the *Never scan the task ouput* which places *"problemMatcher": []* in the task in tasks.json) option in the command bar to actually get the build to start.
 
-## More [clarity] to come later! ##
+## More [clarity] to come later! :tada: ##
