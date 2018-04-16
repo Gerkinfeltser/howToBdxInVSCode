@@ -10,7 +10,7 @@ For this reason, Android BDX projects cannot be developed on VS Code at this tim
 
 ### In VS Code: ###
 1) Install the [Microsoft Java Extention Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack).
-2) Open your BDX project's root Folder (File > Open Folder... [Ctrl+K Ctrl+O])
+2) Open your BDX project's root Folder (*File > Open Folder... [Ctrl+K Ctrl+O]*)
 3) Open **settings.gradle** and remove `'android', ` so the file appears like this:
 `include 'core', 'desktop', 'ios', 'html'`
 4) Open **build.gradle** and remove (or comment out) lines 60 through 77 (the whole `project(":android") {... }` bit.
@@ -40,7 +40,7 @@ If all went well, when its done you should be good to start coding with intellis
 
 ## Setting up a build command ##
 1) Select *Tasks > Configure Tasks...*
-2) This should create a *tasks.json* in the before mentioned *.vscode* directory and open said file (which you could also just create yourself). Delete the generated files contents, paste in the following, and save.
+2) This should create a **tasks.json** in the before mentioned **.vscode** directory and open said file (which you could also just create yourself). Delete the generated files contents, paste in the following, and save.
 ```{
 "version": "2.0.0",
 "tasks": [
@@ -64,6 +64,6 @@ If all went well, when its done you should be good to start coding with intellis
     ]
 }
 ```
-3) Hit *Ctrl+Shift+B* to run the default "Start game" build task or select *Tasks > Run Tasks...* and select the build command you'd like. Remember to hit *F5* if you select the "Debug with JVM" after its done with its initial cooking! Also note, you'll probably have to hit "Continue without scanning the task output" (or the "Never scan the task ouput") option in the command bar to actually get the build to start. ("Never"'s probably OK but I'm honestly not sure how to revert that if selected!)
+3) Hit *Ctrl+Shift+B* to run the default **Start game** build task or select *Tasks > Run Tasks...* and select the build command you'd like. Remember to hit *F5* if you select the **Debug with JVM** after its done with its initial cooking! Also note, you'll probably have to hit *Continue without scanning the task output* (or the *Never scan the task ouput*) option in the command bar to actually get the build to start. (*Never...*'s probably OK but I'm honestly not sure how to revert that if selected and thus never tried it!)
 
 ## More [clarity] to come later! ##
