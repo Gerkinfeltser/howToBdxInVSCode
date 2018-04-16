@@ -22,7 +22,8 @@ If all went well, when its done you should be good to start coding with intellis
 1) Click the Debug tab in the left bar in Code (it's the one with a crossed out bug icon).
 2) Hit F5 get code to generate a Java launch command **launch.json** file in the project root's **.vscode** folder (which also gets created at this time if it hasn't been already).
 3) Clear the newly created **launch.json** file, paste the following into it, and save.
-```{
+```
+{
 "version": "0.2.0",
 "configurations": [
         {
@@ -41,7 +42,8 @@ If all went well, when its done you should be good to start coding with intellis
 ## Setting up a build command ##
 1) Select *Tasks > Configure Tasks...*
 2) This should create a **tasks.json** in the before mentioned **.vscode** directory and open said file (which you could also just create yourself). Delete the generated files contents, paste in the following, and save.
-```{
+```
+{
 "version": "2.0.0",
 "tasks": [
         {
