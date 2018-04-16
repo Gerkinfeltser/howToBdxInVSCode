@@ -58,10 +58,7 @@ If all went well, when its done you should be good to start coding with intellis
         {
             "label": "Debug with JVM",
             "type": "shell",
-            "command": "./gradlew.bat desktop:run --debug-jvm",
-            "group": {
-                "kind": "build"
-            }
+            "command": "./gradlew.bat desktop:run --debug-jvm"
         }
     ]
 }
